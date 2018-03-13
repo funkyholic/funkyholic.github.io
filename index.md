@@ -24,6 +24,12 @@ layout: default
 			  	<li class="box">
 			  		<a href="{% link aboutme.md %}">About Me</a>
 			  	</li>
+			  	<li class="box">
+			  		<span>Project: </span><a href="{% link projects/Nonphr-hadoop.pdf %}">Nonphotorealistic Image rendering on Hadoop</a>
+			  	</li>
+			  	<li class="box">
+			  		<span>Project: </span><a href="{% link projects/Style-transfer.pdf %}">Style-transfer</a>
+			  	</li>
 				</ul>
 		
 	</div>

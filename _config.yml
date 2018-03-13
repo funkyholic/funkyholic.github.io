@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-JB :
-  ASSET_PATH : assets
-  IMAGE_PATH : assets/img
+#JB :
+#  ASSET_PATH : assets
+#  IMAGE_PATH : assets/img
 
 title: HTEA
 email: funkyholic00@gmail.com
