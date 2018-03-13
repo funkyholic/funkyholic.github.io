@@ -1,0 +1,135 @@
+
+
+article {
+
+  width: 64%;
+  margin: 0 18%;
+  padding-top: 2rem;
+  
+
+  .page-wrapper {
+    
+  }
+  
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+body {
+  
+
+  background-image: url("/assets/img/c2.png");
+  padding: 0 2rem;
+  -webkit-transition: background-color 2s ease-in;
+}
+
+
+div.page {
+  margin: 2rem auto;
+  width: 80%;
+  background-color: #fff8f0;
+  
+  border: 0.1rem solid #e0dfcc; 
+
+  
+
+}
+
+
+h1 {
+  color: #444444;
+}
+
+
+header {
+   h2 {
+     font-size: 1.5rem;
+   }
+}
+
+
+
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+#site-title {
+  margin: 0 8%;
+  h1 {
+    padding-top: 1em;
+    margin: 0 270px 0 0;
+  }
+  h2 {
+    margin: 0 2em 1em 0;
+  }
+}
+
+
+
+.post-list {
+
+   
+    margin: 2em auto auto 8%;
+  
+    h1 {
+      font-size: 2rem;	
+    	
+    }
+ 
+}
+
+
+
+div {  
+  .bot {
+    border-bottom: 1px solid #333333;
+    height: 3px;
+    margin: 10px 0 0 0;
+  }
+  
+}
+
+
+
+
+ul {
+  list-style-type: none; 
+}
+
+
+li.box {
+
+ 
+}
+
+
+
+pre {
+  padding: 1em;
+  border: 0.2em solid #e0dfcc;
+  border-radius: 1em;
+  
+}
