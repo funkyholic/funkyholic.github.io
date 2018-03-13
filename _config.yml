@@ -32,13 +32,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   
-gems:
-  - jekyll-feed
+  
+
 exclude:
   - Gemfile
   - Gemfile.lock
 
-github: [metadata]
+incremental: true
 
 
 defaults:
@@ -55,3 +55,4 @@ defaults:
       image: true
   
 
+github: [metadata]

@@ -1,10 +1,10 @@
-<header>
+<header class="site">
 	<hgroup id="site-title">
-		<h1>HTEA</h1>
+		<h1><a href="{% link index.md %}" title="about me">HTEA</a></h1>
 		<h2>The stars, my destination.</h2>
 	</hgroup>
 	<a href="linkto">
-	  <img class="img-responsive" src="https://www.llss.pw/wp/wp-content/uploads/2018/01/logo1801.jpg" width=1000, height=250>
+	  <img class="img-responsive" src="{{'/assets/img/stars.jpg' | absolute_url}}" width=1000, height=250>
   </a>
 	{% include nav.html %}
 </header>

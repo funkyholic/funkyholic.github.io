@@ -1,16 +1,13 @@
 
 
 article {
-
   width: 64%;
   margin: 0 18%;
-  padding-top: 2rem;
+  padding: 3rem 0;
   
-
   .page-wrapper {
     
   }
-  
   
   img {
     display: block;
@@ -36,31 +33,41 @@ article {
 
 body {
   
-
-  background-image: url("/assets/img/c2.png");
-  padding: 0 2rem;
+  background-color: #fff5d7;
+  //background-color: #ffffF0;
+  background-image: url("/assets/img/texture.png");
   -webkit-transition: background-color 2s ease-in;
+  //background-image: url("/assets/img/c9.png");
+  padding: 0 2rem;
+  
 }
 
 
 div.page {
   margin: 2rem auto;
   width: 80%;
-  background-color: #fff8f0;
-  
-  border: 0.1rem solid #e0dfcc; 
-
-  
+  //background-image: url("/assets/img/texture.png");
+  //background-color: #ffffF0;
+  //-webkit-transition: background-color 2s ease-in;
+  //border: 0.1rem thick #e0dfcc; 
 
 }
 
 
 h1 {
-  color: #444444;
+  color: #222222;
+  a {
+  	color: #222222;
+  }
+  a:hover{
+    color: #007bff;	
+    text-decoration-line: underline;
+    
+  }
 }
 
 
-header {
+header.site {
    h2 {
      font-size: 1.5rem;
    }
@@ -77,7 +84,7 @@ header {
 
 
 #site-title {
-  margin: 0 8%;
+  margin: 0 6%;
   h1 {
     padding-top: 1em;
     margin: 0 270px 0 0;
@@ -90,26 +97,28 @@ header {
 
 
 .post-list {
-
-   
-    margin: 2em auto auto 8%;
-  
-    h1 {
-      font-size: 2rem;	
-    	
-    }
- 
+  float: left;
 }
 
 
 
-div {  
-  .bot {
-    border-bottom: 1px solid #333333;
-    height: 3px;
-    margin: 10px 0 0 0;
-  }
+footer.site {  
+  border-top: 0.1rem solid #e0dfcc;
+  padding: 1rem 0;
+  margin: 1rem 0 0 0;
+  overflow: hidden;
   
+}
+
+
+.float_wrapper{
+  
+  overflow: hidden; 
+  
+  div {
+    margin-top: 1.5rem;
+    margin-left: 6%;
+  }
 }
 
 
@@ -127,9 +136,34 @@ li.box {
 
 
 
-pre {
+div.highlight {
   padding: 1em;
   border: 0.2em solid #e0dfcc;
   border-radius: 1em;
+  background-color: #fffff5;
   
+  pre {
+  	background-color: #fffff5;
+  }
+  
+  
+}
+
+
+.supplementary {
+  float: left;
+  margin: 0 0 0 8%;
+}
+
+
+.contact {
+  float: right;
+  margin: 0 8% 0 0;
+  
+}
+
+
+
+.side {
+  float: left;
 }
