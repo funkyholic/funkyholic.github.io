@@ -3,8 +3,8 @@
 		<h1><a href="{% link index.md %}" title="about me">HTEA</a></h1>
 		<h2>The stars, my destination.</h2>
 	</hgroup>
-	<a href="linkto">
-	  <img class="img-responsive" src="{{'/assets/img/stars.jpg' | absolute_url}}" width=1000, height=250>
+	<a href="{{'/assets/img/stars.jpg' | relative_url}}">
+	  <img class="img-responsive" src="{{'/assets/img/stars.jpg' | relative_url}}" width=1000, height=250>
   </a>
 	{% include nav.html %}
 </header>

@@ -14,10 +14,19 @@ article {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+    border: 0.1em solid #e0dfcc;
+
+    
+  }
+  
+  p {
+  	line-height: 1.7;
   }
   
   h1 {
-    font-size: 2rem;
+  	text-align: center;
+    //font-size: 2rem;
+    margin-bottom: 2rem;
   }
   
   h2 {
@@ -138,6 +147,7 @@ li.box {
 
 div.highlight {
   padding: 1em;
+  margin: 0.5em 0;
   border: 0.2em solid #e0dfcc;
   border-radius: 1em;
   background-color: #fffff5;
