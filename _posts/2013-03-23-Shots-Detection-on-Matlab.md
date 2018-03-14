@@ -13,25 +13,19 @@ tags: video
 Modern computer vision has come up with a great many mathematic method of computing difference between two images. Apparently, the images between video shots are almost different enough to distinguish by comparing color histogram or invariant matrix.  
 In this case, a useful application for shots detection on vs2010 is developed, based on invariant matrix method and color histogram analysis. The image data is mainly processed on matlab.  
   
-Env  
+### Env  
 Environment required —— vs2010+opencv+win64  
-  
 Input —— video sequences  
-  
 Output —— sorted edge pictures  
   
-Archive Files  
+### Archive Files  
 matlab/ —— folder that contains some matlab dependencies   
-  
 loadfile.exe —— an auxiliary exe that initialize input images  
-  
 saveshots/ —— folder stores output images  
-  
 shotDetection.exe —— prime exe that detect the edge of shots  
-  
 VideoSeq/ —— stores original undetected video frames  
   
-Algorithm  
+## Algorithm  
 The built-in data structure, IplImage in openCV is a useful tool to store the video frames. In order to make it easier, I wrote loadfile.txt to read the frames from video and save them with regular names.  
 Main Function  
 ColorMoment(IplImage* img1, IplImage* img2);  
@@ -47,7 +41,7 @@ Type in "2" : Detect shots by color histogram analysis
   
 ### Invariant matrix method  
   
-![d4](http://o8e9d1ezz.bkt.clouddn.com/d4.jpg)    
+![d4](http://o8e9d1ezz.bkt.clouddn.com/d2222.jpg)    
   
 The program will automatically read the images under VideoSequence folder, and analyze the difference between adjacent images frame by frame.  
   
@@ -57,7 +51,7 @@ By bare eyes, we could easily find the difference between the data, where normal
   
 ### Color Histogram Analysis    
   
-![d3](http://o8e9d1ezz.bkt.clouddn.com/d3.jpg)    
+![d3](http://o8e9d1ezz.bkt.clouddn.com/d33333.jpg)    
   
 When using Color Histogram, we set the threshold at 0.5, so the computed Histogram-distance could tell the difference.  
   
@@ -67,7 +61,7 @@ Additionally, I computed some other histograms such as correl and chisqr in open
   
 ### Accurate outputs    
   
-![d2](http://o8e9d1ezz.bkt.clouddn.com/d2.jpg)  
+![d2](http://o8e9d1ezz.bkt.clouddn.com/d44444.jpg)  
   
 As I tried dozens of times with different data, this program could somewhat accruately output edge images between continuous shots. At least it could be applied in some tiny   
   
